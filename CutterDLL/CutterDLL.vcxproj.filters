@@ -31,6 +31,9 @@
     <ClCompile Include="CutterDLL_i.c">
       <Filter>Созданные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Cutter.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -48,6 +51,9 @@
     <ClInclude Include="CutterDLL_i.h">
       <Filter>Созданные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="Cutter.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CutterDLL.rc">
@@ -60,6 +66,9 @@
     </None>
     <None Include="CutterDLL.def">
       <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="Cutter.rgs">
+      <Filter>Файлы ресурсов</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

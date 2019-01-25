@@ -8,11 +8,29 @@ import "oaidl.idl";
 import "ocidl.idl";
 
 [
+	object,
+	uuid(8097a8a0-2ebc-48fd-9163-bda617691db2),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICutter : IDispatch
+{
+};
+[
 	uuid(0759412f-522d-4816-a5c4-b05d77b12b7d),
 	version(1.0),
 ]
 library CutterDLLLib
 {
 	importlib("stdole2.tlb");
+	[
+		uuid(0e21e564-77f8-4ec5-96cd-1afbeb5c1b36)
+	]
+	coclass Cutter
+	{
+		[default] interface ICutter;
+	};
 };
 
+import "shobjidl.idl";

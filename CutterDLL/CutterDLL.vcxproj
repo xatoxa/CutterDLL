@@ -210,6 +210,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cutter.cpp" />
     <ClCompile Include="CutterDLL.cpp" />
     <ClCompile Include="CutterDLL_i.c">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
@@ -247,6 +248,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cutter.h" />
     <ClInclude Include="CutterDLL_i.h" />
     <ClInclude Include="dllmain.h" />
     <ClInclude Include="Resource.h" />
@@ -257,6 +259,7 @@
     <ResourceCompile Include="CutterDLL.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Cutter.rgs" />
     <None Include="CutterDLL.def" />
     <None Include="CutterDLL.rgs" />
   </ItemGroup>

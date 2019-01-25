@@ -1,0 +1,26 @@
+HKCR
+{
+	CutterDLL.Cutter.1 = s 'Cutter class'
+	{
+		CLSID = s '{0e21e564-77f8-4ec5-96cd-1afbeb5c1b36}'
+	}
+	CutterDLL.Cutter = s 'Cutter class'
+	{		
+		CurVer = s 'CutterDLL.Cutter.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {0e21e564-77f8-4ec5-96cd-1afbeb5c1b36} = s 'Cutter class'
+		{
+			ProgID = s 'CutterDLL.Cutter.1'
+			VersionIndependentProgID = s 'CutterDLL.Cutter'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{0759412f-522d-4816-a5c4-b05d77b12b7d}'
+			Version = s '1.0'
+		}
+	}
+}
