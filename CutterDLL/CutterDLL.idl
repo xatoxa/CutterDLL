@@ -16,6 +16,8 @@ import "ocidl.idl";
 ]
 interface ICutter : IDispatch
 {
+
+	//добавлять методы через мастер классов
 };
 [
 	uuid(0759412f-522d-4816-a5c4-b05d77b12b7d),
