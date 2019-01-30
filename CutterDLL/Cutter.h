@@ -51,7 +51,7 @@ END_COM_MAP()
 
 public:
 
-
+	STDMETHODIMP CCutter::Cut_image(HBITMAP* image, unsigned int* x1, unsigned int* y1, unsigned int* x2, unsigned int* y2, HBITMAP* out_image);
 
 };
 
